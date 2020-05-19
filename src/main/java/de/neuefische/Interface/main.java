@@ -15,9 +15,6 @@ public class main {
         gradeAverage(biostudent);
         gradeAverage(infostudent);
 
-        //biostudent.printStudentData();
-        //nfostudent.printStudentData();
-
     }
 
     public static void print(StudentInterface student) {

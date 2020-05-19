@@ -28,9 +28,6 @@ public class StudentInfo implements StudentInterface {
         this.subject = subject;
     }
 
-    public String getCoding() {
-        return coding;
-    }
 
     public void setCoding(String coding) {
         this.coding = coding;

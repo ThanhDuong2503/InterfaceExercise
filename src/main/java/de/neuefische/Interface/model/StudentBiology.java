@@ -30,10 +30,6 @@ public class StudentBiology implements StudentInterface {
         this.subject = subject;
     }
 
-    public String getExperiment() {
-        return experiment;
-    }
-
     public void setExperiment(String experiment) {
         this.experiment = experiment;
     }
