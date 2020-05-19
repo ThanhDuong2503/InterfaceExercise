@@ -41,4 +41,13 @@ public class StudentInfo implements StudentInterface {
     public void printStudentData() {
         System.out.println("ID: " + id + " Name: " + name + " Subject: " + subject + " Coding: " + coding);
     }
+
+    @Override
+    public double[] grades() {
+        double[] allGrades = new double[3];
+        allGrades[0] = 2.0;
+        allGrades[1] = 3.0;
+        allGrades[2] = 4.0;
+        return allGrades;
+    }
 }

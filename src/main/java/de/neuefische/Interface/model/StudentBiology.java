@@ -44,4 +44,13 @@ public class StudentBiology implements StudentInterface {
     public void printStudentData() {
         System.out.println("ID: " + id + " Name: " + name + " Subject: " + subject + " Experiment: " + experiment);
     }
+
+    @Override
+    public double[] grades() {
+        double[] allGrades = new double[3];
+        allGrades[0] = 1.0;
+        allGrades[1] = 2.0;
+        allGrades[2] = 3.0;
+        return allGrades;
+    }
 }
